@@ -1,0 +1,24 @@
+{
+  "name": "php-woox/webman-exception",
+  "description": "webman exception handler plugin",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "workerman/webman-framework": "^1.5",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Woox\\WebmanException\\": "src"
+    }
+  },
+  "require-dev": {
+    "workerman/webman": "^1.5",
+    "phpstan/phpstan": "^1.4",
+    "friendsofphp/php-cs-fixer": "^3.6",
+    "php-woox/webman-jwt": "^0.0.1",
+    "illuminate/database": ">=11.0",
+    "php-woox/webman-validate": "^0.0.1"
+  }
+}
